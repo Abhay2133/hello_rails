@@ -3,6 +3,7 @@
 set -o errexit
 
 npm i -g tailwindcss @tailwindcss/cli
+
 bundle install
 bundle exec rails assets:precompile
 bundle exec rails assets:clean
